@@ -1,0 +1,25 @@
+{
+  "name": "vite-react-typescript-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@contentauth/react-hooks": "^0.1.8-alpha.76",
+    "@contentauth/sdk": "^0.8.12-alpha.10",
+    "@contentauth/web-components": "^0.4.2-alpha.20",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "postcss": "^8.4.4",
+    "postcss-nesting": "^10.0.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.6.13"
+  }
+}
